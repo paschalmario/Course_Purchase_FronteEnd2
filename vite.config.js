@@ -5,7 +5,7 @@ import path from 'path'
 // Set the Vite base option to your repo name for GitHub Pages.
 // Replace 'Course_purchase_FrontEnd' with your actual repo name if different.
 export default defineConfig({
-  base: '/Course_purchase_FrontEnd/',
+  base: '/Course_Purchase_FronteEnd2/',
   plugins: [vue()],
   resolve: {
     alias: {
