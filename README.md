@@ -112,6 +112,18 @@ VITE_API_URL="http://localhost:3000"
 3. Use `gh-pages` package or GitHub Actions to publish `dist/` to `gh-pages` branch.
 4. Enable GitHub Pages in repository settings and confirm site URL.
 
+# Course_purchase
+
+## Deploy to GitHub Pages
+- Ensure your build outputs to `dist/`.
+- Set default branch to `main`.
+- Push to GitHub; the GitHub Actions workflow will build and deploy.
+- In repo Settings → Pages, set Source to "GitHub Actions".
+
+## Commands
+- Install: `npm ci`
+- Build: `npm run build`  <!-- adjust if your project uses a different command -->
+
 ## 📁 What NOT to commit / submit
 
 - Do NOT include `node_modules/` or `.env` (contains secrets) in the repository or zip submission.
