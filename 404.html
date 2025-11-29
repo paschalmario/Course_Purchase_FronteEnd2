@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; URL=./index.html">
+    <script>
+      // Preserve path for SPA routers by using hash routing
+      const path = location.pathname.replace(/\/+$/, '');
+      location.replace(`./index.html#${path}${location.search}${location.hash}`);
+    </script>
+  </head>
+  <body></body>
+</html>

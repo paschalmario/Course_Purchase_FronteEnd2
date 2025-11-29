@@ -124,6 +124,16 @@ VITE_API_URL="http://localhost:3000"
 - Install: `npm ci`
 - Build: `npm run build`  <!-- adjust if your project uses a different command -->
 
+## Troubleshooting GitHub Pages
+- Verify Actions ran successfully on `main` (check workflow logs).
+- In Settings → Pages, Source must be "GitHub Actions".
+- Ensure build outputs to `dist/` (or update workflow path).
+- If using a project subpath (username.github.io/repo), set base/publicPath in your bundler:
+  - Vite: `export default { base: '/<repo>/' }`
+  - CRA: set `"homepage": "https://<user>.github.io/<repo>/"` in `package.json`
+- For SPA routing, ensure `404.html` exists (added).
+- Clear browser cache or force refresh.
+
 ## 📁 What NOT to commit / submit
 
 - Do NOT include `node_modules/` or `.env` (contains secrets) in the repository or zip submission.
