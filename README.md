@@ -134,6 +134,10 @@ VITE_API_URL="http://localhost:3000"
 - For SPA routing, ensure `404.html` exists (added).
 - Clear browser cache or force refresh.
 
+## 🔗 Project Links
+- [Vue.js App Repository](https://github.com/paschalmario/Course_Purchase_FronteEnd2)
+- [Vue.js App GitHub Pages](https://paschalmario.github.io/Course_Purchase_FronteEnd2/)
+
 ## 📁 What NOT to commit / submit
 
 - Do NOT include `node_modules/` or `.env` (contains secrets) in the repository or zip submission.
@@ -141,6 +145,7 @@ VITE_API_URL="http://localhost:3000"
 
 ## 📚 Notes for Submission
 
+- Include the above links clearly for assessment.
 - Include this `frontend/` folder (without node_modules) in your ZIP.
 - Provide link to frontend GitHub repo and GitHub Pages URL in the main README.
 - Ensure `VITE_API_URL` points to your deployed backend when demonstrating remotely.
